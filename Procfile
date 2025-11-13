@@ -1,1 +1,1 @@
-web: python bot_gemini_potente.py
+web: python bot_funcional.py
