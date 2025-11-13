@@ -1,1 +1,1 @@
-web: python bot_funcional.py
+web: python bot_definitivo.py
