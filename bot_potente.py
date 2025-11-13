@@ -6,8 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Configuración
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-GEMINI_KEY = os.environ.get('GEMINI_KEY', 'AIzaSyAhyrzgcjygttXeyi4TUXfQa9CS3A0RHhQ')
+BOT_TOKEN = os.environ.get('BOT_TOKEN'GEMINI_KEY = os.environ.get('GEMINI_KEY')
 OPENAI_KEY = os.environ.get('OPENAI_KEY')
 PORT = int(os.environ.get('PORT', 10000))
 
