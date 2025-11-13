@@ -11,8 +11,7 @@ logging.basicConfig(
 )
 
 # Obtener token de variable de entorno o usar el directo
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '7995699419:AAElCQT_F26CgGJxm8GtwXMxKRJ0gYkuXtM')
-
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 print("🚀 BOT INICIANDO EN RENDER...")
 print(f"🔑 Token: {'✅ Configurado' if BOT_TOKEN else '❌ Faltante'}")
 
