@@ -1,1 +1,1 @@
-web: python bot_optimizado.py
+web: python bot_potente.py
